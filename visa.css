@@ -1,0 +1,106 @@
+/* =========================================================
+   VISA ASSISTANCE PAGE
+========================================================= */
+
+.visa-page-hero {
+    min-height: 88svh;
+}
+
+.visa-page-hero .hero-content {
+    padding-bottom: 125px;
+}
+
+.visa-page-hero .hero-description {
+    max-width: 550px;
+}
+
+.visa-detail {
+    background: var(--ivory);
+}
+
+
+/* VISA NOTE */
+
+.visa-note {
+    margin-top: 28px;
+    max-width: 480px;
+    font-size: 0.78rem;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.58);
+}
+
+
+/* IMPORTANT SECTION */
+
+.visa-note-section {
+    padding: 130px 40px;
+    background: var(--ivory);
+}
+
+.visa-note-inner {
+    width: min(100%, 900px);
+    margin: auto;
+    text-align: center;
+}
+
+.visa-note-inner .eyebrow {
+    margin-bottom: 25px;
+}
+
+.visa-note-inner h2 {
+    margin-bottom: 25px;
+    font-family: var(--serif);
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+}
+
+.visa-note-inner h2 em {
+    font-style: italic;
+    color: var(--bronze);
+}
+
+.visa-note-inner p {
+    width: min(100%, 620px);
+    margin: auto;
+    font-size: 0.9rem;
+    line-height: 1.9;
+    color: var(--muted);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 760px) {
+
+    .visa-page-hero {
+        min-height: 78svh;
+    }
+
+    .visa-page-hero .hero-content {
+        padding-bottom: 105px;
+    }
+
+    .visa-note-section {
+        padding: 90px 25px;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+
+    .visa-page-hero {
+        min-height: 75svh;
+    }
+
+    .visa-page-hero .hero-content {
+        padding-bottom: 90px;
+    }
+
+    .visa-note-section {
+        padding: 75px 20px;
+    }
+
+}

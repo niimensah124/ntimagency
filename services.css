@@ -1,0 +1,49 @@
+/* =========================================================
+   SERVICES PAGE
+========================================================= */
+
+.services-hero {
+    min-height: 88svh;
+}
+
+.services-hero .hero-content {
+    padding-bottom: 125px;
+}
+
+.services-hero .hero-description {
+    max-width: 540px;
+}
+
+.service-detail {
+    background: var(--ivory);
+}
+
+
+/* =========================================================
+   SERVICES RESPONSIVE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .services-hero {
+        min-height: 78svh;
+    }
+
+    .services-hero .hero-content {
+        padding-bottom: 105px;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+
+    .services-hero {
+        min-height: 75svh;
+    }
+
+    .services-hero .hero-content {
+        padding-bottom: 90px;
+    }
+
+}
